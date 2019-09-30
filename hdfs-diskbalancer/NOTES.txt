@@ -1,0 +1,2 @@
+if=/dev/urandom of=/tmp/test count=100 bs=1024000
+hdfs dfs -put /tmp/test /qwe
